@@ -29,13 +29,14 @@ main .sec-1 {
     border-radius: 5px;
 }
 
-main .sec-2 .col-md-6 {
-    padding: 0px;
-}
-
-main .sec-2 .col-md-8 {
-    margin: 0px -15px;
-    padding: 0px;
+@media (min-width: 768px) {
+    main .sec-2 .col-md-6 {
+        padding: 0px;
+    }
+    main .sec-2 .col-md-8 {
+        margin: 0px -15px;
+        padding: 0px;
+    }
 }
 
 main .sec-2 .clickable-btn {
