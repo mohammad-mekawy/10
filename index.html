@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="themes/default-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1 class="title">
+                    <span>Tiltle</span> Title
+                </h1>
+                <div class="col-md-6">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates nostrum tempore aperiam, veniam omnis vero modi quia beatae ullam officia accusantium temporibus qui facilis, earum quibusdam? Necessitatibus, deleniti
+                        veniam!
+                    </p>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="sec-1">
+                        <div class="col-md-8">
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae culpa, asperiores, sit illum, tempore at iure officia voluptatem error aspernatur. Et rem quibusdam, ex assumenda harum facilis perferendis quae. Lorem
+                                ipsum dolor sit amet consectetur, adipisicing elit. Molestias exercitationem illo nisi laborum in, optio rerum dicta quo distinctio, maxime hic est quod id itaque numquam dolores? Ipsum, eos sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="col-md-6 ">
+                            <div class="clickable-btn" data-class=".one">
+                                <h4>Lorem ipsum </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt porro dolorem illo, incidunt unde totam reprehenderit quam laboriosam provident fugiat ut! Molestiae error mollitia quisquam eaque repudiandae quia
+                                    rem.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="clickable-btn" data-class=".two">
+                                <h4>Lorem ipsum </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt porro dolorem illo, incidunt unde totam reprehenderit quam laboriosam provident fugiat ut! Molestiae error mollitia quisquam eaque repudiandae quia
+                                    rem.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="clickable-btn" data-class=".three">
+                                <h4>Lorem ipsum </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt porro dolorem illo, incidunt unde totam reprehenderit quam laboriosam provident fugiat ut! Molestiae error mollitia quisquam eaque repudiandae quia
+                                    rem.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="clickable-btn" data-class=".four">
+                                <h4>Lorem ipsum </h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt porro dolorem illo, incidunt unde totam reprehenderit quam laboriosam provident fugiat ut! Molestiae error mollitia quisquam eaque repudiandae quia
+                                    rem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="side">
+                            <div class="one">
+                                <h4>Lorem ipsum </h4>
+                                <ul>
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 2</a></li>
+                                    <li><a href="#">link 3</a></li>
+                                    <li><a href="#">link 4</a></li>
+                                    <li><a href="#">link 5</a></li>
+                                    <li><a href="#">link 6</a></li>
+                                    <li><a href="#">link 7</a></li>
+                                    <li><a href="#">link 8</a></li>
+                                </ul>
+                            </div>
+                            <div class="two">
+                                <h4>Lorem ipsum Lorem ipsum </h4>
+                                <ul>
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 2</a></li>
+                                </ul>
+                            </div>
+                            <div class="three">
+                                <h4>Lorem ipsum Lorem ipsum Lorem ipsum </h4>
+                                <ul>
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 2</a></li>
+                                    <li><a href="#">link 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="four">
+                                <h4>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
+                                <ul>
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 2</a></li>
+                                    <li><a href="#">link 3</a></li>
+                                    <li><a href="#">link 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        $(".clickable-btn").click(function() {
+            window.location = "#"
+            $($(this).data("class")).show(1000)
+            $($(this).data("class")).siblings().hide(1000)
+        })
+        $(".clickable-btn").hover(function() {
+            $($(this).data("class")).show(1000)
+            $($(this).data("class")).siblings().hide(1000)
+        })
+    </script>
+</body>
+
+</html>

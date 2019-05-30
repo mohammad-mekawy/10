@@ -1,0 +1,70 @@
+header h1 span {
+    color: gray;
+}
+
+header .title::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: gray;
+}
+
+header button.btn-primary {
+    background-color: gray;
+}
+
+main .sec-1 {
+    background: gray;
+    color: #fff;
+    min-height: 20px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+main .sec-2 .col-md-6 {
+    padding: 0px;
+}
+
+main .sec-2 .col-md-8 {
+    margin: 0px -15px;
+    padding: 0px;
+}
+
+main .sec-2 .clickable-btn {
+    background: gray;
+    color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+main .sec-2 .clickable-btn:hover {
+    box-shadow: 0px 2px 8px 3px darkgrey;
+}
+
+main .sec-2 .side {
+    background-color: gainsboro;
+    padding: 15px;
+    margin-top: 15px;
+    height: 408px;
+    border-radius: 5px;
+}
+
+main .sec-2 .side a {
+    color: #000;
+}
+
+main .sec-2 .side ul {
+    padding: 20px;
+}
+
+main .side .two,
+main .side .three,
+main .side .four {
+    display: none;
+}
