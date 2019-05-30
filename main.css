@@ -12,6 +12,11 @@ header .title::after {
 
 header button.btn-primary {
     background-color: gray;
+    transition: 0.5s;
+}
+
+header button.btn-primary:hover {
+    background-color: rgb(90, 88, 88);
 }
 
 main .sec-1 {
